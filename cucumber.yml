@@ -1,0 +1,9 @@
+all: -t @all --format html --out report.html --format pretty
+
+pre_q_loan: -t @pre_q_loan --format html --out report.html --format pretty
+
+pre_q_refinance: -t @pre_q_refinance --format html --out report.html --format pretty
+
+pre_q_loan_outline: -t @pre_q_loan_outline --format html --out report.html --format pretty
+
+negative_pre_q_loan: -t @negative_pre_q_loan --format html --out report.html --format pretty
